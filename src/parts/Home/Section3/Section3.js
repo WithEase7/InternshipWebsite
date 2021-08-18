@@ -28,30 +28,32 @@ function Section() {
       <div class="container">
         <div class="text-box">
           <h1>Internships Programs</h1>
-          <p>We have 12 Departments</p>
+          <p>We have 11 Departments</p>
         </div>
         <div className = 'main-card'>
              <Carousel breakPoints={breakPoints}>
 
                  <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
 
-                 <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
+                 <InternshipProgram image = {card2} title="Web Developer" description = "UI/UX Designer Description" />
 
-                 <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
+                 <InternshipProgram image = {card3} title="Graphic Designer" description = "UI/UX Designer Description" />
 
-                 <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
+                 <InternshipProgram image = {card4} title="Video Editor" description = "UI/UX Designer Description" />
 
-                 <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
+                 <InternshipProgram image = {card5} title="Content Writer" description = "UI/UX Designer Description" />
 
-                 <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
+                 <InternshipProgram image = {card6} title="HR Generalist" description = "UI/UX Designer Description" />
 
-                 <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
+                 <InternshipProgram image = {card7} title="Digital Marketer" description = "UI/UX Designer Description" />
 
-                 <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
+                 <InternshipProgram image = {card8} title="Data Analyst" description = "UI/UX Designer Description" />
 
-                 <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
+                 <InternshipProgram image = {card9} title="Market Research Analyst" description = "UI/UX Designer Description" />
 
-                 <InternshipProgram image = {card1} title="UI/UX Designer" description = "UI/UX Designer Description" />
+                 <InternshipProgram image = {card10} title="Business Development Trainee" description = "UI/UX Designer Description" />
+
+                 <InternshipProgram image = {card11} title="Finance" description = "UI/UX Designer Description" />
 
              </Carousel>
         </div>

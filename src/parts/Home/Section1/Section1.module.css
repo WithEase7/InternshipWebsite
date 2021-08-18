@@ -4,6 +4,7 @@
   height: 100vh;
   padding-top: 100px;
   display: flex;
+  /* justify-content: space-between; */
   flex-direction: row;
   position: relative;
 }
@@ -16,6 +17,8 @@
   padding: 50px;
 }
 .homeSec1Info h1 {
+  color: black;
+  font-weight: 900;
 }
 
 .homeSec1Info p {
@@ -26,7 +29,9 @@
   transform: skew(25deg);
   background: rgb(0, 90, 140);
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
   cursor: pointer;
 }
 .homeSec1Btn {
@@ -64,9 +69,9 @@
 .camGalImg {
   /* width: 350px;
     height: 350px; */
-  width: 40vw;
+  width: 35vw;
   max-width: 500px;
-  height: 40vw;
+  height: 35vw;
   max-height: 500px;
   border-radius: 50%;
   object-fit: cover;

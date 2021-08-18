@@ -18,6 +18,7 @@
 
 .section2Col img {
   width: 100%;
+  box-shadow: 3px 3px 5px rgba(238, 238, 238);
 }
 
 .section2Col a {

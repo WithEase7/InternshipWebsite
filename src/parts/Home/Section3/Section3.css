@@ -1,32 +1,39 @@
+.homeSection3{
+  margin: 0 1rem 5rem 1rem;
+}
 .container {
-  background: #f6f6f6;;
+  background: #055d8dd5;
   max-width: 100%;
   overflow: hidden;
   padding: 20px 0px;
-  border: 1px solid black;
+  border-radius: 2rem;
 }
 
 .text-box {
   max-width: 100%;
   color: rgb(0, 0, 0);
   text-align: center;
-  border: 1px solid black;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.text-box h1{
-  color: rgb(0, 0, 0);
+.text-box h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
 }
 
-.main-card{
-  border: 2px solid rgba(0, 255, 21, 0.226);
-  height: 20rem;
+.text-box p{
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
 }
 
-.card{
+.main-card {
+  height: 29rem;
+}
+
+.card {
   width: 90%;
-  height: 17rem;
-  font-size: 1.5rem;
+  height: 22rem;
   margin: 3rem 2rem;
   display: flex;
   background: #ffffff;
@@ -34,182 +41,53 @@
   position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* .text-box {
-  max-width: 95%;
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  font-family: "Roboto", sans-serif;
+.card .img {
+  position: absolute;
+  width: 192px;
+  height: 180px;
+  top: 1.5rem;
+  left: 3.6rem;
 }
-
-.subheading {
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-  padding-top: 10px;
-  font-family: "Roboto", sans-serif;
-}
-
-.container {
-  background: #005a8c;
-  max-width: 100%;
-  overflow: hidden;
-  padding: 20px 0px;
-}
-.container .main-card {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 15px;
-  width: 400%;
-  transition: 1s;
-}
-
-#three:checked ~ .main-card {
-  margin-left: -100%;
-}
-#four:checked ~ .main-card {
-  margin-left: -200%;
-}
-#five:checked ~ .main-card {
-  margin-left: -300%;
-}
-
-.container .main-card .cards {
-  width: 25%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 20px;
-  justify-content: space-between;
-}
-
-.main-card .cards .card {
-  width: calc(100% / 3 - 35px);
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-  transition: all 0.4s ease;
-}
-.main-card .cards .card:hover {
-  transform: translateY(-15px);
-}
-
-p {
-  width: 280px;
-  font-family: "Roboto", sans-serif;
-}
-
-.btn {
-  display: flex;
+.card .img img {
   width: 100%;
 }
 
-.bttn {
-  width: 50%;
-}
-
-.btn1,
-.btn2 {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid black;
-  background: #fff;
-}
-.btn1 {
-  border-radius: 0px 0px 0px 5px;
-}
-
-.btn2 {
-  border-radius: 0px 0px 5px 0px;
-  color: #005a8c;
-}
-
-.fa,
-.fas {
-  font-size: x-large;
-  color: #fff;
-  transition: 0.5s;
-  margin: 0px 5px;
-}
-
-.name {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
-}
-
-.fa:hover {
-  color: #9b9a9a;
-  box-shadow: 0px 0px 5px 3px rgba(255, 255, 255, 0.4);
-}
-
-.cards .card .content {
-  width: 100%;
+.course-details {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-}
-.cards .card .content .img {
-  width: 263px;
-  height: 168px;
-  border-radius: 50%;
-  padding: 3px;
-  margin: 20px;
-}
-.card .content .img img {
-  height: 100%;
   width: 100%;
-  border: 3px solid #ffff;
-  object-fit: cover;
+  position: absolute;
+  top: 13rem;
 }
 
-.container .button {
-  width: 95%;
+.course-name {
+  font-weight: bold;
+}
+
+.footer-div{
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
   display: flex;
-  justify-content: center;
-  margin: 20px;
-  align-items: center;
+  border-top: 1px solid #CACACA;
 }
-.button label {
-  height: 15px;
-  width: 15px;
-  border-radius: 20px;
-  background: #9b9a9a;
-  margin: 0 4px;
+
+.duration{
+  width: 50%;
+  text-align: center;
+  padding: .5rem;
+  border-right: 1px solid #CACACA;
+  cursor: text;
+  color: #8F8F8F;
+}
+
+.know-more{
+  width: 50%;
+  text-align: center;
+  padding: .5rem;
   cursor: pointer;
-  transition: all 0.5s ease;
+  color: #005A8C;
 }
 
-.button label:hover {
-  background: #fff;
-  box-shadow: 0px 0px 5px 3px rgba(238, 238, 238, 0.4);
-}
 
-input[type="radio"] {
-  display: none;
-}
-@media (max-width: 768px) {
-  .main-card .cards .card {
-    margin: 20px 0 10px 0;
-    width: calc(100% / 2 - 10px);
-  }
-}
-@media (max-width: 600px) {
-  .main-card .cards .card {
-    width: 100%;
-  }
-} */
